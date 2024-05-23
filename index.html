@@ -1,0 +1,608 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Personal Portfolio Website</title>
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Barlow:wght@600;700&family=Open+Sans:wght@400;500;700&family=Poppins:wght@400;600&display=swap"
+    rel="stylesheet">
+</head>
+
+<body id="top">
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <a href="#">
+        <h1 class="logo">My Personal Portfolio</h1>
+      </a>
+
+      <button class="nav-toggle-btn" aria-label="Toggle Menu" data-nav-toggle-btn>
+        <ion-icon name="menu-outline" class="menu-icon"></ion-icon>
+        <ion-icon name="close-outline" class="close-icon"></ion-icon>
+      </button>
+
+      <nav class="navbar container">
+        <ul class="navbar-list">
+
+          <li>
+            <a href="#home" class="navbar-link" data-nav-link>Home</a>
+          </li>
+
+          <li>
+            <a href="#about" class="navbar-link" data-nav-link>About</a>
+          </li>
+
+          <li>
+            <a href="#education" class="navbar-link" data-nav-link>Education</a>
+          </li>
+
+          <li>
+            <a href="#skills" class="navbar-link" data-nav-link>Skills</a>
+          </li>
+
+          <li>
+            <a href="#hobbies" class="navbar-link" data-nav-link>Hobbies</a>
+          </li>
+
+          <li>
+            <a href="#photos" class="navbar-link" data-nav-link>Photos</a>
+          </li>
+
+          <li>
+            <a href="#contact" class="navbar-link" data-nav-link>Contact</a>
+          </li>
+
+        </ul>
+      </nav>
+
+    </div>
+  </header>
+
+
+
+
+
+  <main>
+    <article>
+
+      <!-- 
+        - #HERO
+      -->
+
+      <section class="hero" id="home">
+        <div class="container">
+
+          <div class="hero-banner">
+
+            <img src="./assets/images/profile.jpg" width="800" height="864" loading="lazy" alt="Ethan's Photo"
+              class="img-cover">
+
+            <div class="elem elem-1">
+              <p class="elem-title">BSIT</p>
+            </div>
+
+            <div class="elem elem-2">
+              <p class="elem-title">NWSSU</p>
+            </div>
+
+            <div class="elem elem-3">
+              <p class="elem-title">CCIS</p>
+            </div>
+
+            <img src="./assets/images/rotate-img.png" width="169" height="172" alt="I'm developer from New York"
+              class="rotate-img">
+
+          </div>
+
+          <div class="hero-content">
+
+            <h2 class="hero-title">
+              <span>I'm</span>
+              <strong></strong>Bachelor of Science in Information Technology, 2nd Year Student.</h2>
+
+          </div>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #ABOUT
+      -->
+
+      <section class="section about" id="about">
+        <div class="container">
+
+          <figure class="about-banner">
+
+            <img src="./assets/images/profile.jpg" width="800" height="652" loading="lazy" alt="Ethan's Photo"
+              class="img-cover">
+
+            <div class="abs-icon abs-icon-1">
+              <ion-icon name="logo-css3"></ion-icon>
+            </div>
+
+            <div class="abs-icon abs-icon-2">
+              <ion-icon name="logo-javascript"></ion-icon>
+            </div>
+
+            <div class="abs-icon abs-icon-3">
+              <ion-icon name="logo-angular"></ion-icon>
+            </div>
+
+          </figure>
+
+          <div class="about-content">
+
+            <p class="section-subtitle">I'm a Student</p>
+
+            <p class="section-text">
+              Hi! I am Jonna Resulta Cortes, a dedicated student pursuing a degree in Information Technology at Northwest Samar State University. I am passionate about the ever-evolving world of technology and its potential to drive positive change. Through my coursework, I have developed a strong foundation in programming, data analytics, and cybersecurity. I am eager to apply my knowledge and skills to real-world challenges and contribute to the advancement of the IT industry. I am committed to continuous learning and growth, and I look forward to exploring new opportunities in the dynamic field of Information Technology.
+            </p>
+            <div>
+              <p>Name: Jonna R. Cortes</p>
+            </div>
+            <div>
+              <p>Address: Brgy. Dalupirit San Antonio Northern Samar</p>
+            </div>
+            <div>
+              <p>Birthdate: September 11, 2004</p>
+            </div>
+            <div>
+              <p>Zipcode: 6407</p>
+            </div>
+
+          </div>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #PORTFOLIO
+      -->
+
+      <section class="section education" id="education">
+        <div class="container">
+
+          <p class="section-subtitle">My Educational Background</p>
+          <br>
+
+          <ul class="education-list">
+
+            <li>
+              <div class="education-card" style="background-image: url('./assets/images/portfolio-1.jpg')">
+                <div class="card-content">
+
+                  <p class="card-subtitle">2015-2016</p>
+                  <h3>Elementary Graduate</h3>
+                  <h3 class="h3 card-title">Dalupirit Elementary School</h3>
+
+                  <span class="btn-link">
+
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="education-card" style="background-image: url('./assets/images/portfolio-2.jpg')">
+                <div class="card-content">
+
+                  <p class="card-subtitle">2019-2020</p>
+                  <h3>Junior High School</h3>
+                  <h3 class="h3 card-title">San Antonio Agricultural and Vocational School</h3>
+
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="education-card" style="background-image: url('./assets/images/portfolio-3.jpg')">
+                <div class="card-content">
+
+                  <p class="card-subtitle">2020-2022d</p>
+                  <h3>Senior High School</h3>
+                  <h3 class="h3 card-title">San Antonio Agricultural and Vocational School</h3>
+
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="education-card" style="background-image: url('./assets/images/portfolio-4.jpg')">
+                <div class="card-content">
+
+                  <p>Motto</p>
+
+                  <h3 class="h3 card-title">"Do not blame others for disappointing you, blame yourself for expecting too much."</h3>
+
+                </div>
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+      <!-- 
+        - #SKILLS
+      -->
+
+      <section class="section skills" id="skills">
+        <div class="container">
+
+          <p class="section-subtitle">My Skills</p>
+
+          <h2 class="h2 section-title">I Develop Skills Regularly</h2>
+
+          <ul class="skills-list">
+
+            <li class="skills-item">
+              <div class="wrapper" style="width: 95%">
+                <h3 class=" skills-title">CSS</h3>
+
+                <data class="skills-data" value="95">95%</data>
+              </div>
+
+              <div class="skills-progress-box">
+                <div class="skills-progress" style="width: 95%"></div>
+              </div>
+            </li>
+
+            <li class="skills-item">
+              <div class="wrapper" style="width: 75%">
+                <h3 class="skills-title">React</h3>
+
+                <data class="skills-data" value="75">75%</data>
+              </div>
+
+              <div class="skills-progress-box">
+                <div class="skills-progress" style="width: 75%"></div>
+              </div>
+            </li>
+
+            <li class="skills-item">
+              <div class="wrapper" style="width: 90%">
+                <h3 class="skills-title">MongoDB</h3>
+
+                <data class="skills-data" value="90">90%</data>
+              </div>
+
+              <div class="skills-progress-box">
+                <div class="skills-progress" style="width: 90%"></div>
+              </div>
+            </li>
+
+            <li class="skills-item">
+              <div class="wrapper" style="width: 70%">
+                <h3 class="skills-title">Python</h3>
+
+                <data class="skills-data" value="70">70%</data>
+              </div>
+
+              <div class="skills-progress-box">
+                <div class="skills-progress" style="width: 70%"></div>
+              </div>
+            </li>
+
+            <li class="skills-item">
+              <div class="wrapper" style="width: 80%">
+                <h3 class="skills-title">PHP</h3>
+
+                <data class="skills-data" value="80">80%</data>
+              </div>
+
+              <div class="skills-progress-box">
+                <div class="skills-progress" style="width: 80%"></div>
+              </div>
+            </li>
+
+            <li class="skills-item">
+              <div class="wrapper" style="width: 75%">
+                <h3 class="skills-title">JavaScript</h3>
+
+                <data class="skills-data" value="75">75%</data>
+              </div>
+
+              <div class="skills-progress-box">
+                <div class="skills-progress" style="width: 75%"></div>
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+
+      <section class="section hobbies" id="hobbies">
+        <div class="container">
+      
+          <p class="section-subtitle">My Hobbies</p>
+      
+          <h2 class="h2 section-title">Things I Enjoy</h2>
+          <br>
+      
+          <ul class="hobbies-list">
+      
+            <li class="hobbies-item">
+              <div class="wrapper" style="width: 95%">
+                <h3 class="hobbies-title">Acrylic Painting</h3>
+              </div>
+            </li>
+      
+            <li class="hobbies-item">
+              <div class="wrapper" style="width: 75%">
+                <h3 class="hobbies-title">Dancing</h3>
+              </div>
+            </li>
+      
+            <li class="hobbies-item">
+              <div class="wrapper" style="width: 90%">
+                <h3 class="hobbies-title">Reading Books</h3>
+              </div>
+            </li>
+      
+            <li class="hobbies-item">
+              <div class="wrapper" style="width: 70%">
+                <h3 class="hobbies-title">Singing</h3>
+              </div>
+            </li>
+      
+            <li class="hobbies-item">
+              <div class="wrapper" style="width: 80%">
+                <h3 class="hobbies-title">Watching K-Drama</h3>
+              </div>
+            </li>
+      
+            <li class="hobbies-item">
+              <div class="wrapper" style="width: 80%">
+                <h3 class="hobbies-title">Programming</h3>
+              </div>
+            </li>
+      
+          </ul>
+      
+        </div>
+      </section>
+      
+
+
+
+
+
+      <section class="section photos" id="photos">
+        <div class="container">
+      
+          <p class="section-subtitle">My Latest Photos</p>
+      
+          <h2 class="h2 section-title">Checkout My Recent Photos</h2>
+          <br>
+      
+          <ul class="photo-grid">
+            <li class="photo-item">
+              <div class="blog-card">
+                <figure class="card-banner">
+                    <img src="./assets/images/blog-1.jpg" loading="lazy" alt="Photo 1" class="img-cover">
+                  </a>
+                </figure>
+              </div>
+            </li>
+      
+            <li class="photo-item">
+              <div class="blog-card">
+                <figure class="card-banner">
+                    <img src="./assets/images/blog-2.jpg" loading="lazy" alt="Photo 2" class="img-cover">
+                  </a>
+                </figure>
+              </div>
+            </li>
+      
+            <li class="photo-item">
+              <div class="blog-card">
+                <figure class="card-banner">
+                    <img src="./assets/images/blog-3.jpg" loading="lazy" alt="Photo 3" class="img-cover">
+                  </a>
+                </figure>
+              </div>
+            </li>
+      
+            <li class="photo-item">
+              <div class="blog-card">
+                <figure class="card-banner">
+                    <img src="./assets/images/blog-4.jpg" loading="lazy" alt="Photo 4" class="img-cover">
+                  </a>
+                </figure>
+              </div>
+            </li>
+      
+            <li class="photo-item">
+              <div class="blog-card">
+                <figure class="card-banner">
+                    <img src="./assets/images/blog-5.jpg" loading="lazy" alt="Photo 5" class="img-cover">
+                  </a>
+                </figure>
+              </div>
+            </li>
+      
+            <li class="photo-item">
+              <div class="blog-card">
+                <figure class="card-banner">
+                    <img src="./assets/images/blog-6.jpg" loading="lazy" alt="Photo 6" class="img-cover">
+                  </a>
+                </figure>
+              </div>
+            </li>
+          </ul>
+      
+        </div>
+      </section>
+      
+
+
+
+
+
+      <!-- 
+        - #CONTACT
+      -->
+
+      <section class="section contact" id="contact">
+        <div class="container">
+
+          <div class="contact-card">
+
+            <p class="card-subtitle">Don't be shy</p>
+
+            <h2 class="h2 section-title">Drop Me a Line</h2>
+
+            <div class="wrapper">
+
+              <form action="" class="contact-form">
+
+                <input type="text" name="name" placeholder="Name" required class="contact-input">
+
+                <input type="email" name="email" placeholder="Email" required class="contact-input">
+
+                <textarea name="message" placeholder="Message" required class="contact-input"></textarea>
+
+                <button type="submit" class="btn-submit">Submit Message</button>
+
+              </form>
+
+              <ul class="contact-list">
+
+                <li class="contact-item">
+
+                  <div class="contact-icon">
+                    <ion-icon name="location"></ion-icon>
+                  </div>
+
+                  <div>
+                    <h3 class="contact-item-title">Address</h3>
+
+                    <address class="contact-item-link">
+                      Brgy. Dalupirit San Antonio Northern Samar
+                    </address>
+                  </div>
+
+                </li>
+
+                <li class="contact-item">
+
+                  <div class="contact-icon">
+                    <ion-icon name="mail"></ion-icon>
+                  </div>
+
+                  <div>
+                    <h3 class="contact-item-title">Email</h3>
+
+                    <a href="mailto:cortesjonna11@gmail.com" class="contact-item-link">JonnaCortes@gmail.com</a>
+                  </div>
+
+                </li>
+
+                <li class="contact-item">
+
+                  <div class="contact-icon">
+                    <ion-icon name="call"></ion-icon>
+                  </div>
+
+                  <div>
+                    <h3 class="contact-item-title">Phone</h3>
+
+                    <a href="tel:+639984643805" class="contact-item-link">+639984643805</a>
+                  </div>
+
+                </li>
+
+              </ul>
+
+            </div>
+
+          </div>
+
+        </div>
+      </section>
+    </article>
+  </main>
+
+
+
+
+
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footer">
+    <div class="container">
+
+      <p class="copyright">
+        &copy; 2024 <div class="copyright-link">Jonna Cortes</div>. All Rights Reseverd
+      </p>
+
+    </div>
+  </footer>
+
+
+
+
+
+  <!-- 
+    - #BACK TO TOP
+  -->
+
+  <a href="#top" class="back-to-top" data-back-to-top>BACK TOP</a>
+
+
+
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
